@@ -9,11 +9,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { TopheadingComponent } from './topheading/topheading.component';
 
 import {NewsapiservicesService} from './service/newsapiservices.service';
+import { TechnewsComponent } from './technews/technews.component';
+import { BusinessnewsComponent } from './businessnews/businessnews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopheadingComponent
+    TopheadingComponent,
+    TechnewsComponent,
+    BusinessnewsComponent
   ],
   imports: [
     BrowserModule,
